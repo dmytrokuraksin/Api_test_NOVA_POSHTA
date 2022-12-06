@@ -2,7 +2,7 @@ from requests import Response
 from Utils.checking import Checking
 from Utils.api import Nova_poshta_api
 
-"""Create, update and delete location"""
+"""Api test new post"""
 
 class Test_searh_settlements():
 
