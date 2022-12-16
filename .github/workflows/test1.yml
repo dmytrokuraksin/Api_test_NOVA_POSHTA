@@ -1,7 +1,8 @@
 name: Python application
 
 on:
-  push
+  schedule:
+   - cron: '49,50,51 * * * *'
 
 jobs:
   build:
