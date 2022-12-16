@@ -2,8 +2,7 @@ name: Python application
 
 on:
   schedule:
-   - cron: '49,50,51 * * * *'
-
+   - cron: '57 * * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
